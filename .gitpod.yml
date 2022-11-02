@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Update
+    command: |
+      sudo pacman --needed --noconfirm --noprogressbar -Syyuq >/dev/null 2>&1
